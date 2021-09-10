@@ -5,7 +5,7 @@ jobs:
     name: CI&CD # 此任务（job）的名字
     runs-on: ubuntu-latest # 运行环境
     steps:
-      - uses: actions/checkout@master # 切换分支到master
+      - uses: actions/checkout@main # 切换分支到main
         with:
           fetch-depth: 2
 
